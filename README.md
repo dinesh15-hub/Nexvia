@@ -124,6 +124,6 @@ Using a separate virtual environment for each project is recommended, because th
 ## Author
 
 **Dinesh Chandra Reddy** · B.Tech Computer Science, Hyderabad
-GitHub: [@dinesh15-hub](https://github.com/dinesh15-hub) · LinkedIn: [dineshchandra-reddy]([https://linkedin.com/in/dineshchandra-reddy](https://www.linkedin.com/in/dineshchandra-reddy-vanteru-159340287/))
+GitHub: [@dinesh15-hub](https://github.com/dinesh15-hub) · LinkedIn: [dineshchandrareddy](https://www.linkedin.com/in/dineshchandra-reddy-vanteru-159340287/)
 
 Built with Python, data science, machine learning and business analytics.
