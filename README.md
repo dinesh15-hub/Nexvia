@@ -34,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-[Project folder](./DS-01-Customer-Lifetime-Value-and-Churn) · [Dashboard code: app.py](./DS-01-Customer-Lifetime-Value-and-Churn/app.py)
+[Project folder](./DS-01-Customer-Lifetime-Value-and-Churn) · [Dashboard code](./DS-01-Customer-Lifetime-Value-and-Churn/app.py)
 
 ---
 
@@ -124,6 +124,6 @@ Using a separate virtual environment for each project is recommended, because th
 ## Author
 
 **Dinesh Chandra Reddy** · B.Tech Computer Science, Hyderabad
-GitHub: [@dinesh15-hub](https://github.com/dinesh15-hub) · LinkedIn: [dineshchandra-reddy](https://linkedin.com/in/dineshchandra-reddy)
+GitHub: [@dinesh15-hub](https://github.com/dinesh15-hub) · LinkedIn: [dineshchandra-reddy]([https://linkedin.com/in/dineshchandra-reddy](https://www.linkedin.com/in/dineshchandra-reddy-vanteru-159340287/))
 
 Built with Python, data science, machine learning and business analytics.
