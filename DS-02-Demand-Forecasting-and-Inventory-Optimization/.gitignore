@@ -1,49 +1,28 @@
 
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-env/
+# ==========================================
+# NEXVIA - Combined Repository
+# ==========================================
 
-# Jupyter
-.ipynb_checkpoints/
+# DS-02 raw datasets (keep locally, don't upload)
+ /DS-02-Demand-Forecasting-and-Inventory-Optimization/data/
 
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
 
-# Large datasets
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Python cache files
+**/__pycache__/
+**/*.py[cod]
 
-# Model artifacts
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.ckpt
-*.onnx
+# Jupyter temporary files
+**/.ipynb_checkpoints/
 
-# Temporary files
-*.log
-*.tmp
+# Logs and temporary files
+**/*.log
+**/*.tmp
+
+# Operating system files
 .DS_Store
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Cache
-.cache/
-.pytest_cache/
-
-# Generated outputs
-outputs/
+desktop.ini
