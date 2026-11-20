@@ -115,8 +115,8 @@ The dataset includes customer demographics, tenure, subscribed services, contrac
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/dinesh15-hub/DS-01-Customer-Intelligence.git
-cd DS-01-Customer-Intelligence
+git clone https://github.com/dinesh15-hub/Nexvia.git
+cd Nexvia/DS-01-Customer-Lifetime-Value-and-Churn
 ```
 
 **2. Create a virtual environment (recommended)**
