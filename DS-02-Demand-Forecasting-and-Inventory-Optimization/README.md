@@ -142,19 +142,43 @@ Evaluation protocols and forecast horizons are documented separately so that com
 
 ## Getting Started
 
-```bash
-# 1. Clone the repository and install dependencies
-git clone https://github.com/dinesh15-hub/DS-02-Demand-Forecasting.git
-cd DS-02-Demand-Forecasting
-pip install -r requirements.txt
+## Running the Project Locally
 
-# 2. Run the dashboard
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/dinesh15-hub/Nexvia.git
+cd Nexvia/DS-02-Demand-Forecasting-and-Inventory-Optimization
+```
+
+**2. Create a virtual environment (recommended)**
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+**3. Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Run the dashboard**
+
+```bash
 python models/dashboard/enterprise_dashboard.py
 ```
 
-Then open **http://localhost:8051** in your browser.
+The dashboard will be available at **http://localhost:8051**.
 
-The dashboard reads the model outputs from `models/forecast_evaluation/`, `models/inventory_optimization/` and `models/darts_reconciliation/`, so these folders must contain the generated CSV and Parquet files. If a file is missing, the dashboard stops and lists exactly which one.
+**Note:** The dashboard uses pre-generated model outputs stored in the `models/` directory. Raw M5 datasets are excluded from GitHub due to their size. Download and place the required datasets in the local `data/` directory if you want to run the complete data processing and forecasting pipeline.
+```
 
 ## Repository Structure
 
