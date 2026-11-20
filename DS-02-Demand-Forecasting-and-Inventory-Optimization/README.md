@@ -176,12 +176,11 @@ python models/dashboard/enterprise_dashboard.py
 The dashboard will be available at **http://localhost:8051**.
 
 **Note:** The dashboard uses pre-generated model outputs stored in the `models/` directory. Raw M5 datasets are excluded from GitHub due to their size. Download and place the required datasets in the local `data/` directory if you want to run the complete data processing and forecasting pipeline.
-```
 
 ## Repository Structure
 
 ```text
-DS-02-Demand-Forecasting/
+DS-02-Demand-Forecasting-and-Inventory-Optimization/
 │
 ├── docs/
 │   ├── screenshots/
@@ -233,6 +232,28 @@ DS-02-Demand-Forecasting/
 
 **Completed – DS-02 Final Submission | Nexvia Technologies**
 
+## Individual Reflection
+
+**What I built.** I built a forecasting and inventory optimization system on the M5 Walmart dataset. It covers Seasonal Naive, Prophet, LightGBM and TFT forecasts, prediction intervals, hierarchical reconciliation with Darts MinT, and replenishment planning with Google OR-Tools. The results are shown in a seven-page Plotly Dash dashboard.
+
+**What I learned.**
+- Evaluation design matters as much as the model. My WAPE values come from different populations and protocols (100 series vs. 30,490 series, 28-day vs. one-day-ahead, item-store vs. nationwide). Only the three fixed-origin models are directly comparable, and I stated that on the dashboard rather than ranking everything together.
+- About 68% of sales records are zero. Intermittent demand makes percentage errors large, so I looked at several metrics (MAE, RMSE, WAPE, RMSSE) instead of one.
+- Prediction intervals need checking. TFT's 80% and 96% intervals covered 77.82% and 94.57% of actual values, close to nominal but not exact, and only on one validation window.
+- Reconciliation made the forecasts consistent across item, department and category levels, and I checked it numerically against a tolerance.
+- M5 has no real inventory, lead-time or cost data. The optimization results therefore use simulated assumptions, which I documented clearly so they are not mistaken for real purchasing advice.
+
+**Challenges.** TFT, reconciliation and optimization were too heavy to run on the full dataset with the compute I had, so I ran them on defined subsets and stated the scope explicitly. Keeping the numbers and wording consistent across the README, dashboard and evaluation files took care.
+
+**What I would improve.** Evaluate TFT on more series and several time windows, use the official M5 WRMSSE metric, reconcile the full hierarchy, and replace the simulated inventory inputs with real operational data.
+
 ---
 
-*This project is developed as part of the Nexvia Technologies DS-02 internship program.*
+## Acknowledgement
+
+Developed as part of the **DS-02 Internship Project at Nexvia Technologies**.
+Dataset: M5 Forecasting (Walmart).
+
+## Author
+
+**Dinesh Chandra Reddy** · [GitHub Profile](https://github.com/dinesh15-hub)
