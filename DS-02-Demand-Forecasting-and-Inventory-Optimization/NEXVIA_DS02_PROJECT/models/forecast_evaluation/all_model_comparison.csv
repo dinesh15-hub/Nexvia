@@ -1,0 +1,5 @@
+Model,MAE,RMSE,WAPE (%),Evaluation Scope
+Naive (Lag 7),1.205352,2.660112,86.939033,Item-store validation
+LightGBM,0.968725,1.941166,69.871751,Item-store validation
+TFT,0.895824,1.962768,63.905938,100 item-store series
+Prophet,2617.8280825083266,3359.664347224779,6.192765815403948,Nationwide aggregate

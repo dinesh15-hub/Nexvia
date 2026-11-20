@@ -1,0 +1,19 @@
+{
+    "series_count": 100,
+    "validation_observations": 2800,
+    "forecast_horizon_days": 28,
+    "validation_start": "2016-03-28",
+    "validation_end": "2016-04-24",
+    "models": [
+        "Naive (Lag 7)",
+        "LightGBM",
+        "TFT"
+    ],
+    "metrics": [
+        "MAE",
+        "RMSE",
+        "WAPE (%)",
+        "RMSSE"
+    ],
+    "tft_alignment_verified": true
+}

@@ -1,0 +1,14 @@
+# DS-02 raw dataset
+/DS-02-Demand-Forecasting-and-Inventory-Optimization/NEXVIA_DS02_PROJECT/data/
+
+# Python environments and cache
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Temporary files
+**/.ipynb_checkpoints/
+**/*.log
+.DS_Store
+Thumbs.db

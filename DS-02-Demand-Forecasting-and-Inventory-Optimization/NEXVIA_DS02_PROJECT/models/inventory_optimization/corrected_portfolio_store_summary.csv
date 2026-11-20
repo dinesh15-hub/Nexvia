@@ -1,0 +1,2 @@
+store_id,items,forecast_demand,recommended_orders,unmet_demand,optimization_cost
+CA_1,565,13309.65081101656,9580.0,152.76333577937808,713529.5369246835

@@ -1,0 +1,25 @@
+{
+    "evaluation_type": "Verified fixed-origin 28-day forecast",
+    "forecast_origin": "2016-03-27",
+    "validation_start": "2016-03-28",
+    "validation_end": "2016-04-24",
+    "series_count": 100,
+    "observation_count": 2800,
+    "models": [
+        "Seasonal Naive",
+        "Enhanced LightGBM",
+        "TFT"
+    ],
+    "lightgbm_method": "Recursive one-day-at-a-time prediction",
+    "tft_method": "Direct 28-day multi-horizon prediction using restored saved weights",
+    "tft_point_forecast": "Median quantile Q0.50",
+    "rmsse_method": "Unweighted mean of per-series RMSSE",
+    "rmsse_training_cutoff": "2016-03-27",
+    "rmsse_series_count": 100,
+    "scope": "100 CA_1 HOBBIES item-store series",
+    "limitations": [
+        "Results represent one 28-day validation window.",
+        "RMSSE is not official M5 WRMSSE.",
+        "Results should not be generalized to all M5 series."
+    ]
+}

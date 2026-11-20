@@ -1,0 +1,21 @@
+{
+    "series_count": 100,
+    "observations": 2800,
+    "forecast_horizon_days": 28,
+    "forecast_origin": "2016-03-27",
+    "validation_start": "2016-03-28",
+    "validation_end": "2016-04-24",
+    "forecast_protocol": "Fixed-origin 28-day",
+    "models": [
+        "Naive (Fixed Origin)",
+        "LightGBM (Recursive)",
+        "TFT (Fixed Origin)"
+    ],
+    "metrics": [
+        "MAE",
+        "RMSE",
+        "WAPE (%)",
+        "RMSSE"
+    ],
+    "rmsse_aggregation": "Unweighted mean of per-series RMSSE"
+}

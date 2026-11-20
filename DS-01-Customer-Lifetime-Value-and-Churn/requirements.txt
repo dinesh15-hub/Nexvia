@@ -1,0 +1,14 @@
+
+streamlit
+pandas
+numpy
+psycopg[binary]
+sqlalchemy
+scikit-learn
+lightgbm
+shap
+lifelines
+matplotlib
+seaborn
+joblib
+plotly>=5.18.0

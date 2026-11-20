@@ -1,0 +1,13 @@
+{
+    "model": "Enhanced LightGBM",
+    "series_count": 100,
+    "observations": 2800,
+    "forecast_origin": "2016-03-27",
+    "validation_start": "2016-03-28",
+    "validation_end": "2016-04-24",
+    "protocol": "Recursive fixed-origin 28-day forecast",
+    "MAE": 1.148243514249493,
+    "RMSE": 2.621037795161225,
+    "WAPE_percent": 92.73382866739487,
+    "future_actuals_used_as_features": false
+}

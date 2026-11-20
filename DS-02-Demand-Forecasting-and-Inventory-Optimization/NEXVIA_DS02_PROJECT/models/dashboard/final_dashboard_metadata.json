@@ -1,0 +1,47 @@
+{
+    "created_at": "2026-11-17T11:45:31.986173",
+    "dashboard_sections": 12,
+    "charts": [
+        {
+            "id": "nationwide-forecast-chart",
+            "traces": 4
+        },
+        {
+            "id": "inventory-chart",
+            "traces": 1
+        },
+        {
+            "id": "demand-chart",
+            "traces": 2
+        },
+        {
+            "id": "cost-chart",
+            "traces": 1
+        },
+        {
+            "id": "portfolio-inventory-chart",
+            "traces": 2
+        },
+        {
+            "id": "portfolio-demand-chart",
+            "traces": 1
+        },
+        {
+            "id": "portfolio-cost-chart",
+            "traces": 1
+        }
+    ],
+    "inventory_solver_status": {
+        "OPTIMAL": 472,
+        "FEASIBLE": 93,
+        "FAILED": 0
+    },
+    "inventory_validation": {
+        "inventory_mismatches": 0,
+        "shortage_mismatches": 0,
+        "simultaneous_stock_and_shortage": 0
+    },
+    "inventory_scope": "565 HOBBIES item-store series in CA_1",
+    "forecast_horizon_days": 28,
+    "cost_assumptions_are_simulated": true
+}

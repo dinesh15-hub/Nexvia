@@ -1,0 +1,26 @@
+{
+    "item_store_id": "HOBBIES_1_001_CA_1_validation",
+    "solver_status": "OPTIMAL",
+    "forecast_horizon_days": 28,
+    "forecast_demand": 32.060462951660156,
+    "total_units_ordered": 23,
+    "ordering_days": 3,
+    "expected_unmet_demand": 0.06046295166015625,
+    "ending_inventory": 0.0,
+    "minimum_total_cost": 1702.706953048706,
+    "cost_breakdown": {
+        "purchase": 1380.0,
+        "ordering": 150.0,
+        "holding": 163.6375102996826,
+        "stockout": 9.069442749023438
+    },
+    "assumptions": {
+        "initial_inventory": 9,
+        "lead_time": 2,
+        "holding_cost": 2.0,
+        "stockout_penalty": 150.0,
+        "ordering_cost": 50.0,
+        "unit_purchase_cost": 60.0,
+        "max_order_quantity": 100
+    }
+}

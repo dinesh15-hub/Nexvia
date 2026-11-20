@@ -1,0 +1,23 @@
+{
+    "status": "Historical experiment - not independently verified",
+    "evaluation_scope": "Earlier 100-series interval experiment",
+    "results": {
+        "TFT 80%": {
+            "coverage_percent": 83.571,
+            "average_width": 3.16
+        },
+        "TFT 96%": {
+            "coverage_percent": 96.786,
+            "average_width": 5.579
+        },
+        "LightGBM 80%": {
+            "coverage_percent": 90.286,
+            "average_width": 3.21
+        },
+        "LightGBM 96%": {
+            "coverage_percent": 98.0,
+            "average_width": 5.389
+        }
+    },
+    "note": "These results belong to the earlier interval run. They must not be presented as metrics from the restored fixed-origin TFT evaluation."
+}

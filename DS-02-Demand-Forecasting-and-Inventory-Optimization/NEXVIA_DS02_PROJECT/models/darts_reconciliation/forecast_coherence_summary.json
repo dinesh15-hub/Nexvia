@@ -1,0 +1,9 @@
+{
+  "forecast_days": 28,
+  "parent_relationships_checked": 3,
+  "daily_checks": 84,
+  "maximum_absolute_coherence_error": 0.00054931640625,
+  "mean_absolute_coherence_error": 0.00017874581473214285,
+  "tolerance": 0.001,
+  "passed": true
+}

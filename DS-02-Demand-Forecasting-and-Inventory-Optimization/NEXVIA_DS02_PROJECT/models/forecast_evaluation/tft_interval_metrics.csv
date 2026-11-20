@@ -1,0 +1,3 @@
+Interval,Nominal Coverage (%),Actual Coverage (%),Average Width,Below Interval (%),Above Interval (%)
+TFT 80%,80.0,83.57142857142857,3.1601987,4.857142857142857,11.571428571428571
+TFT 96%,96.0,96.78571428571429,5.579454,0.2142857142857143,3.0

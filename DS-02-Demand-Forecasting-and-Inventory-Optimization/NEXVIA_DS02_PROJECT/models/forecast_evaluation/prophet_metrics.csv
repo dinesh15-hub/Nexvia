@@ -1,0 +1,2 @@
+model,level,validation_days,MAE,RMSE,WAPE_percent
+Prophet,Nationwide,28,2617.8280825083266,3359.664347224779,6.192765815403948

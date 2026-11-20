@@ -1,0 +1,33 @@
+{
+    "model": "Selected LightGBM",
+    "feature_count": 18,
+    "features": [
+        "lag_1",
+        "lag_7",
+        "lag_28",
+        "rolling_mean_7",
+        "rolling_mean_28",
+        "sell_price",
+        "wday",
+        "month",
+        "year",
+        "snap_CA",
+        "snap_TX",
+        "snap_WI",
+        "price_change",
+        "price_change_pct",
+        "price_reduction_proxy",
+        "has_national_event",
+        "has_event",
+        "any_price_change"
+    ],
+    "best_iteration": 508,
+    "validation_series": 500,
+    "validation_observations": 14000,
+    "validation_start": "2016-03-28",
+    "validation_end": "2016-04-24",
+    "evaluation_type": "Rolling one-day-ahead validation",
+    "MAE": 0.959321715687952,
+    "RMSE": 2.255282343842963,
+    "WAPE": 91.7760285610997
+}

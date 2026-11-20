@@ -1,0 +1,48 @@
+{
+  "project": "Demand Forecasting and Inventory Optimization",
+  "dashboard_title": "Demand Forecasting & Inventory Intelligence",
+  "version": "2.0",
+  "created_at": "2026-11-18T05:36:55.462339",
+  "framework": "Plotly Dash",
+  "sections": [
+    "Executive Overview",
+    "Data Intelligence",
+    "Forecasting Intelligence",
+    "Hierarchical Reconciliation",
+    "Inventory Intelligence",
+    "Business Insights"
+  ],
+  "visualizations": 12,
+  "inventory_scope": {
+    "items": 565,
+    "solver_optimal": 472,
+    "solver_feasible": 93,
+    "unmet_demand": 152.76
+  },
+  "hierarchy_scope": {
+    "region": "CA",
+    "store": "CA_1",
+    "category": "HOBBIES",
+    "components": 568,
+    "bottom_series": 565,
+    "forecast_days": 28
+  },
+  "forecast_evaluation": {
+    "lightgbm_full_dataset_wape": 69.85,
+    "prophet_nationwide_wape": 6.19,
+    "tft_fixed_origin_wape": 85.82
+  },
+  "limitations": [
+    "M5 does not provide actual inventory levels, lead times, supplier costs or stockout penalties. Inventory optimization uses simulated assumptions.",
+    "Price-change indicators are proxies and do not confirm promotional activity.",
+    "The full 39,791-node M5 hierarchy was not reconciled; the Darts demonstration covers the CA_1 HOBBIES subset.",
+    "TFT and fixed-origin model comparisons use a 100-series subset.",
+    "The enhanced LightGBM evaluation is one-day-ahead rolling validation, while fixed-origin evaluation measures a 28-day horizon.",
+    "Reported RMSSE is an unweighted mean across series, not official M5 WRMSSE."
+  ],
+  "validation": {
+    "checks_passed": 12,
+    "checks_total": 12,
+    "status": "PASSED"
+  }
+}
