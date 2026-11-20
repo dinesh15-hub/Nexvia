@@ -140,8 +140,6 @@ A seven-page dashboard with a Light / Dark theme toggle and a responsive layout.
 
 Evaluation protocols and forecast horizons are documented separately so that comparisons stay meaningful.
 
-## Getting Started
-
 ## Running the Project Locally
 
 **1. Clone the repository**
