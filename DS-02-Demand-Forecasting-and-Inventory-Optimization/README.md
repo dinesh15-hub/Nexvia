@@ -145,8 +145,8 @@ Evaluation protocols and forecast horizons are documented separately so that com
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/dinesh15-hub/DS-02-Demand-Forecasting.git
-cd DS-02-Demand-Forecasting
+git clone https://github.com/dinesh15-hub/Nexvia.git
+cd Nexvia/DS-02-Demand-Forecasting-and-Inventory-Optimization
 ```
 
 **2. Create a virtual environment (recommended)**
