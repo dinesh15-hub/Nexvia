@@ -1,0 +1,39 @@
+# Core data processing
+numpy
+pandas
+scipy
+pyarrow
+fastparquet
+
+# Visualization
+matplotlib
+seaborn
+plotly
+dash
+
+# Machine Learning
+scikit-learn
+lightgbm
+shap
+joblib
+
+# Time Series Forecasting
+prophet
+statsmodels
+
+# Deep Learning and TFT
+torch
+lightning
+pytorch-forecasting
+
+# Hierarchical Forecast Reconciliation
+u8darts
+
+# Inventory Optimization
+ortools
+
+# Development
+jupyter
+ipykernel
+tqdm
+requests
