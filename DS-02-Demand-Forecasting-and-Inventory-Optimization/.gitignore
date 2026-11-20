@@ -1,10 +1,6 @@
 
-# ==========================================
-# NEXVIA - Combined Repository
-# ==========================================
-
 # DS-02 raw datasets (keep locally, don't upload)
- /DS-02-Demand-Forecasting-and-Inventory-Optimization/data/
+/DS-02-Demand-Forecasting-and-Inventory-Optimization/data/
 
 # Python virtual environments
 **/.venv/
